@@ -3,13 +3,37 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
-
 \usepackage[left=3.00cm, right=2.00cm, top=2.00cm, bottom=2.00cm]{geometry}
 \usepackage{mathptmx}
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{tikz}
+\usepackage{hyperref}
 \usetikzlibrary{calc}
+\usepackage{indentfirst} %thu vien thut dau dong
+\renewcommand{\baselinestretch}{1.2}% Gian dong 1.2
+\setlength{\parskip}{6pt} %spacing after
+\setlength{\parindent}{1cm} %thut dau dong moi doan
+\usepackage{titlesec}
+\titlespacing*{\section}{0pt}{0pt}{30pt} %Heading 1
+\titleformat*{\section}{\fontsize{16pt}{0pt}\selectfont \bfseries \centering}
+
+\titlespacing*{\subsection}{0pt}{10pt}{0pt} %Heading 2
+\titleformat*{\subsection}{\fontsize{14pt}{0pt}\selectfont \bfseries}
+
+\titlespacing*{\subsubsection}{0pt}{10pt}{0pt} %Heading 3
+\titleformat*{\subsubsection}{\fontsize{13pt}{0pt}\selectfont \bfseries \itshape}
+
+\titlespacing*{\paragraph}{0pt}{10pt}{0pt} %Heading 4
+\titleformat*{\paragraph}{\fontsize{13pt}{0pt}\selectfont \itshape}
+
+\renewcommand{\figurename}{\fontsize{12pt}{0pt}\selectfont \bfseries Hình}
+\renewcommand{\thefigure}{\thesection.\arabic{figure}}
+\usepackage{caption}
+\captionsetup[figure]{labelsep=space}
+
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
 
 \begin{document}
 \begin{titlepage}
@@ -22,7 +46,7 @@
 	\centering
 	\includegraphics[scale=.30]{image/bachkhoa.png}
 \end{figure}
-\vspace{1.5cm}
+\vspace{0.5cm}
 \fontsize{24pt}{0pt}\selectfont BÁO CÁO\\
 \vspace{12pt}
 \textbf{\fontsize{32pt}{0pt}\selectfont ĐỀ CƯƠNG LUẬN VĂN}
@@ -30,18 +54,66 @@
 \end{center}
 \textbf{\fontsize{14pt}{0pt}\selectfont Đề tài:}
 \begin{center}
-	\textbf{\fontsize{20pt}{0pt}\selectfont ỨNG DỤNG CÔNG NGHỆ LORA VÀ MQTT NÔNG NGHIỆP THÔNG MINH}\\
+	\textbf{\fontsize{20pt}{0pt}\selectfont ỨNG DỤNG CÔNG NGHỆ LORA VÀ MQTT VÀO NÔNG NGHIỆP THÔNG MINH}\\
 \vspace{1.5cm}
 \begin{table}[H]
 	\centering
 	\begin{tabular}{l l}
 	\fontsize{14pt}{0pt}\selectfont Sinh viên thực hiện:  &\fontsize{14pt}{0pt}\selectfont LÊ ĐẠT - 1714121 \vspace{6pt}\\
 	& Lớp DD17DV7 \vspace{6pt} \\
-	\fontsize{14pt}{0pt} \selectfont Giảng viên hướng dẫn:  &\fontsize{14pt}{0pt}\selectfont TS. VÕ QUẾ SƠN\\
+	\fontsize{14pt}{0pt}\selectfont Giảng viên hướng dẫn:  &\fontsize{14pt}{0pt}\selectfont TS. VÕ QUẾ SƠN\\
 	\end{tabular}
 \end{table}
-\vspace{3cm}
-\fontsize{14pt}{0pt} \selectfont TP Hồ Chí Minh, 4-2021
+\vspace{2cm}
+\fontsize{14pt}{0pt}\selectfont TP Hồ Chí Minh, 4-2021
 \end{center}
 \end{titlepage}
+\cleardoublepage
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+\tableofcontents
+\thispagestyle{empty}
+\cleardoublepage
+
+\pagenumbering{roman}
+\section*{LỜI CẢM ƠN}
+\addcontentsline{toc}{section}{\numberline {} LỜI CẢM ƠN}
+\thispagestyle{empty}
+Xin chân thành gửi lời cảm ơn tới TS. Võ Quế Sơn đã nhiệt tình giúp đỡ em trong suốt học kỳ đề cương vừa qua. Những lời nhận xét, góp ý, hướng dẫn của thầy đã giúp em có một hướng đi rõ ràng, cũng như hướng thực hiện đồ án này. Xin chân thành gửi lời cảm ơn tới toàn thể quý thầy cô trường Đại học Bách Khoa Thành phố Hồ Chí Minh đã giảng dạy, hướng dẫn và tạo mọi điều kiện, môi trường học tập tốt cho em trong những ngày tháng học tập tại trường. Đề tài thực tập được thực hiện bởi một thành viên, do thời gian có hạn, nên không thể tránh khỏi những thiếu sót. Rất mong nhận được sự góp ý của thầy để em học  hỏi thêm được nhiều kinh nghiệm và có thể thực hiện tốt hơn trong luận văn tốt nghiệp.
+
+\vspace{6pt}
+\hspace{7cm} TP. Hồ Chí Minh, ngày 20 tháng 04 năm 2021
+
+\hspace{9cm}\textbf{Sinh viên thực hiện}
+
+\vspace{2cm}
+\hspace{9.85cm}\textbf{LÊ ĐẠT}
+\cleardoublepage
+
+
+\section*{DANH MỤC KÝ HIỆU VÀ CHỮ VIẾT TẮT}
+\addcontentsline{toc}{section}{\numberline {} DANH MỤC KÝ HIỆU VÀ CHỮ VIẾT TẮT}
+\cleardoublepage
+
+\listoffigures
+\addcontentsline{toc}{section}{\numberline {} DANH MỤC HÌNH VẼ}
+\cleardoublepage
+
+\listoftables
+\addcontentsline{toc}{section}{\numberline {} DANH MỤC BẢNG BIỂU}
+\cleardoublepage
+
+\pagenumbering{arabic}
+
+\include{Chapter 1/Chapter 1}
+
+\include{Chapter 2/Chapter 2}
+
+\include{Chapter 3/Chapter 3}
+
+\include{Chapter 4/Chapter 4}
+
+\include{Chapter 5/Chapter 5}
+
+\include{References/References}
+
 \end{document}
