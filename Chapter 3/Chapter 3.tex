@@ -1,6 +1,7 @@
 \section*{CHƯƠNG 3: MCU VÀ PHẦN CỨNG ĐƯỢC SỬ DỤNG TRONG THỰC TẬP}
 \addcontentsline{toc}{section}{\numberline {} CHƯƠNG 3: MCU VÀ PHẦN CỨNG ĐƯỢC SỬ DỤNG TRONG THỰC TẬP}
 \setcounter{section}{3}
+\setcounter{figure}{0}
 \setcounter{subsection}{0}
 \subsection{ARDUINO NANO CH340}
 \begin{figure}[H]
@@ -82,7 +83,7 @@ Raspberry Pi 3 Model B+ là một phiên bản nâng cấp của Raspberry Pi 3 
 	\label{hinh36}
 \end{figure}
 Mạch thu phát RF UART Lora SX1278 433Mhz 3000m sử dụng chip SX1278 của nhà sản xuất SEMTECH chuẩn giao tiếp LORA (Long Range), chuẩn LORA mang đến hai yếu tố quan trọng là tiết kiệm năng lượng và khoảng cách phát siêu xa ( Ultimate long range wireless solution), ngoài ra nó còn có khả năng cấu hình để tạo thành mạng nên hiện tại được phát triển và sử dụng rất nhiều trong các nghiên cứu về IoT.\\
-\indent Mạch thu phát RF UART Lora SX1278 433Mhz 3000m được tích hợp phần chuyển đổi giao tiếp SPI của SX1278 sang UART giúp việc giao tiếp và sử dụng rất dễ dàng, chỉ cần kết nối với Software của hãng để cấu hình địa chỉ , tốc độ và công suất truyền là có thể sử dụngnguyễn2000chu.\\
+\indent Mạch thu phát RF UART Lora SX1278 433Mhz 3000m được tích hợp phần chuyển đổi giao tiếp SPI của SX1278 sang UART giúp việc giao tiếp và sử dụng rất dễ dàng, chỉ cần kết nối với Software của hãng để cấu hình địa chỉ , tốc độ và công suất truyền là có thể sử dụng.\\
 \indent \textbf{Thông số kỹ thuật:}
 \begin{itemize}
 	\item Model: E32-TTL-100 RF
@@ -103,6 +104,20 @@ Mạch thu phát RF UART Lora SX1278 433Mhz 3000m sử dụng chip SX1278 của 
 	\caption[Chế độ làm việc của module LoRa E32]{Chế độ làm việc của module LoRa E32}
 	\label{hinh37}
 \end{figure}
+
+\indent Các bước cấu hình cho module E32 LoRa:
+\begin{itemize}
+	\item Để tùy chỉnh các thông số thu phát: Kênh, Địa chỉ, Tốc độ, Công suất,… chúng ta cần sử dụng module chuyển đổi USB-UART Lora CP2102 kết nối với máy tính.
+	\item Kết nối với máy tính, tải và cài đặt Driver CP210x.
+	\item Sau đó sử dụng phần mềm Wireless Module Setting để tiến hành tùy chỉnh.
+\end{itemize}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=.5]{Chapter 2/image chapter 2/configLoRa.png}
+	\caption[Phần mềm cấu hình module LoRa E32]{Phần mềm cấu hình module LoRa E32}
+\end{figure}
+
+\indent \textbf{Lưu ý:} Để các module có thể giao tiếp được với nhau, thì các thông số tùy chỉnh như: kênh truyền, địa chỉ,… cần \textbf{phải giống nhau}.
 \subsection{DHT22 TEMPERATURE AND HUMIDITY SENSOR}
 \begin{figure}[H]
 	\centering
@@ -115,7 +130,7 @@ Cảm biến độ ẩm, nhiệt độ DHT22 Temperature Humidity Sensor ra châ
 \begin{itemize}
 	\item Nguồn sử dụng: 3~5 VDC.
 	\item Dòng sử dụng: 2.5mA max (khi truyền dữ liệu).
-	\item Đo tốt ở độ ẩm 0100%RH với sai số 2-5%.
+	\item Đo tốt ở độ ẩm 0100\% RH với sai số 2-5\%.
 	\item Đo tốt ở nhiệt độ -40 to 80°C sai số ±0.5°C.
 	\item Tần số lấy mẫu tối đa 0.5Hz (2 giây 1 lần)
 	\item Kích thước 27mm x 59mm x 13.5mm (1.05" x 2.32" x 0.53")
@@ -138,3 +153,77 @@ Mạch 2 Relay Opto cách ly 5VDC thích hợp với các ứng dụng đóng ng
 	\item Tích hợp Opto cách ly, Diod chống nhiễu và đèn báo tín hiệu kích.
 	\item Kích thước: 39 x 51 x 20mm
 \end{itemize}
+\subsection{CẢM BIẾN ĐỘ ĐỤC NƯỚC (DFROBOT)}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=.3]{Chapter 3/image chapter 3/TurbiSensor.jpg}
+	\caption[Cảm biến độ đục nước (DFROBOT)]{Cảm biến độ đục nước (DFROBOT)}
+\end{figure}
+Độ đục là một trong những tiêu chí dùng để kiểm tra chất lượng nước, nó thể hiện bằng lượng hạt tồn tại trong nước, lượng hạt càng tăng thì mức độ đục của nước càng tăng\\
+\indent Vì thế kiểm tra độ đục của nước là cần thiết.\\
+\indent Cảm biến đo độ đục chất lỏng giúp chúng ta có thể đo mức độ đục của chất lỏng\\
+\indent Cảm biến đo độ đục chất lỏng hoạt động dựa vào nguyên lý quang học, nó có thể phát hiện các hạt lơ lửng trong nước.\\
+\indent \textbf{Ứng dụng}\\
+\indent Cảm biến đo độ đục chất lỏng được ứng dụng trong bài toán như:
+\begin{itemize}
+	\item Đo chất lượng nước ở sông, suối, hay trong các đường ống nước
+	\item Đo chất lượng nước thải
+	\item Dùng trong nghiên cứu, thí nghiệm
+\end{itemize}
+
+\indent \textbf{Thông số kỹ thuật}
+\begin{itemize}
+	\item Điện áp hoạt động: 5V
+	\item Dòng điện làm việc: 40mA (Max)
+	\item Thời gian đáp ứng: < 500ms
+	\item Điện trở cách điện: 100M(Min)
+	\item Đầu ra Analog 0 ~ 4.5V
+	\item Đầu ra Digital: High/Low (Có thể điều chỉnh giá trị ngưỡng bằng biến trở)
+	\item Nhiệt độ hoạt động: 5*C ~ 90*C
+	\item Nhiệt độ dự trữ: -10*C ~ 90*C
+	\item Kích thước: 38mm*28mm*10mm
+	\item Trọng lượng: 30g
+\end{itemize}
+
+\indent \textbf{Sơ đồ các chân}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=1]{Chapter 3/image chapter 3/sodoTurbi.PNG}
+	\caption[Sơ đồ và chức năng của các chân cảm biến]{Sơ đồ và chức năng của các chân cảm biến}
+\end{figure}
+\indent Chân dữ liệu đầu ra "D" có thể chọn là chân ra kiểu "Digital" hoặc "Analog" thông qua công tắc gạt trên cảm biến
+\subsection{CẢM BIẾN pH (Atlas Scientific)}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=.4]{Chapter 3/image chapter 3/pHSensor.png}
+	\caption[Cảm biến pH]{Cảm biến pH}
+\end{figure}
+Bộ cảm biến PH Atlas Scientific là một mạch cảm biến pH nhúng thế hệ thứ 6. Mạch pH lớp EZO này, mang lại độ ổn định và độ chính xác cao nhất.\\
+\indent Với cấu hình phù hợp, mạch pH lớp EZO có thể đáp ứng hoặc vượt quá độ chính xác và độ chính xác so với hầu hết các máy đo pH trong phòng thí nghiệm. Mạch pH pH-EZO, có thể hoạt động với bất kỳ đầu dò/cảm biến/điện cực pH nào có sẵn.\\
+\indent \textbf{Thông số kỹ thuật:}
+\begin{itemize}
+	\item Tầm đo: 0-14 (sai số Na + ở> 12,3 pH)
+	\item Nhiệt độ hoạt động: 1*C - 99*C
+	\item Áp suất tối đa: 690 kPa (100PSI)
+	\item Độ sâu tối đa: 60M (197 ft)
+	\item Chiều dài cáp: 1 mét
+	\item Trọng lượng: 49 gram
+	\item Tốc độ phản hồi: 95\% trong 1 giây
+	\item Điểm đẳng tích: pH 7,00 (0 mV)
+	\item Kích thước: 12mm X 150mm (1/2 "X 6")
+	\item Đầu nối BNC 
+\end{itemize}
+\subsection{CẢM BIẾN ORP (Atlas Scientific)}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=.3]{Chapter 3/image chapter 3/ORPSensor.png}
+	\caption[Cảm biến ORP]{Cảm biến ORP}
+\end{figure}
+ORP Probe hoàn hảo cho thiết bị đo ORP cho hệ thống thủy canh, lấy mẫu đất, sử dụng trong phòng thí nghiệm tiêu chuẩn, sử dụng ngoài đồng ruộng, an toàn thực phẩm, nước ion thấp và siêu tinh khiết, giữ cá, chất khử mạnh. Đầu dò ORP này có thể được ngâm hoàn toàn trong nước ngọt hoặc nước muối, cho đến đầu nối BNC vô thời hạn. Mạch EZO ORP mang lại độ ổn định và độ chính xác cao nhất. Với cấu hình phù hợp, mạch EZO ORP, có thể đáp ứng hoặc vượt quá độ chính xác và độ chính xác so với các máy đo ORP để bàn trong phòng thí nghiệm.
+\begin{itemize}
+	\item ORP Calibration Solution được thiết kế để hiệu chuẩn và kiểm tra chính xác thiết bị cho đầu dò ORP. Để sử dụng giải pháp này, Đặt đầu dò ORP của bạn vào dung dịch này, để yên 1-2 phút. Máy đo của bạn sau đó sẽ đọc 225mV nếu được hiệu chuẩn chính xác.
+	\item Mạch EZO ORP mang lại độ ổn định và độ chính xác cao nhất. Với cấu hình phù hợp, mạch EZO ORP có thể đáp ứng hoặc vượt quá độ chính xác và độ chính xác được tìm thấy trong các máy đo ORP cấp phòng thí nghiệm để bàn. Mạch ORP có thể hoạt động với bất kỳ đầu dò/cảm biến/điện cực ORP nào có sẵn.
+	\item Bộ cảm biến ORP / REDOX có khả năng đọc phụ thuộc nhiệt độ hoặc độc lập với nhiệt độ cũng như chế độ đọc đơn hoặc đọc liên tục. Giao thức hiệu chuẩn linh hoạt hỗ trợ hiệu chuẩn một điểm đến bất kỳ giá trị nào. Số đọc ORP phạm vi rộng từ -1019,9 đến +1019,9. Số đọc ORP chính xác đến hàng trăm (+/-1mV).
+\end{itemize}
+
+\indent Đầu dò ORP này có thể được ngâm hoàn toàn trong nước ngọt hoặc nước muối, cho đến đầu nối BNC vô thời hạn. Đầu dò ORP là một thiết bị thụ động phát hiện dòng điện được tạo ra từ thế oxy hóa-khử của nước.
