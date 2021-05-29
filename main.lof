@@ -19,12 +19,15 @@
 \contentsline {figure}{\numberline {3.13}{\ignorespaces Cảm biến pH}}{17}{figure.caption.21}%
 \contentsline {figure}{\numberline {3.14}{\ignorespaces Cảm biến ORP}}{18}{figure.caption.22}%
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Sơ đồ các giao tiếp phần cứng}}{19}{figure.caption.23}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Phần cứng end-Node trong thực tế}}{19}{figure.caption.24}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Các thông số của môi trường được hiển thị trên app}}{20}{figure.caption.25}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Các thông số của môi trường được hiển thị trên Gateway}}{20}{figure.caption.26}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Phần cứng trong trạng thái bật relay 1 tắt relay 2}}{20}{figure.caption.27}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Trang thái của end-Node được hiển thị trên app}}{21}{figure.caption.28}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Trang thái của end-Node được hiển thị trên Gateway}}{21}{figure.caption.29}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Phần cứng trong trạng thái bật relay 2 tắt relay 1}}{22}{figure.caption.30}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Phần cứng node vườn thanh long thực tế}}{19}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Phần cứng node ao tôm thực tế}}{20}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Phần cứng node ao tôm thực tế}}{20}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Các thông số của môi trường được hiển thị trên app}}{21}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Các thông số của môi trường được hiển thị trên Gateway}}{21}{figure.caption.28}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Các thông số của môi trường nước được cảm biến thu về và hiển thị trên màn hình LCD}}{21}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Phần cứng trong trạng thái bật relay 1 tắt relay 2}}{22}{figure.caption.30}%
 \contentsline {figure}{\numberline {4.9}{\ignorespaces Trang thái của end-Node được hiển thị trên app}}{22}{figure.caption.31}%
 \contentsline {figure}{\numberline {4.10}{\ignorespaces Trang thái của end-Node được hiển thị trên Gateway}}{23}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Phần cứng trong trạng thái bật relay 2 tắt relay 1}}{23}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Trang thái của end-Node được hiển thị trên app}}{24}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Trang thái của end-Node được hiển thị trên Gateway}}{24}{figure.caption.35}%
