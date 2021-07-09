@@ -1,33 +1,37 @@
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Kế hoạch thực hiện}}{3}{figure.caption.3}%
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Ảnh minh hoạ tầm xa LoRa}}{4}{figure.caption.4}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Module RF UART E32-TTL-100}}{5}{figure.caption.5}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Lịch sử hình thành MQTT}}{6}{figure.caption.6}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Cơ chế tổng quan MQTT}}{7}{figure.caption.7}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Kiến trúc thành phần MQTT}}{7}{figure.caption.8}%
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Arduino nano CH340}}{9}{figure.caption.9}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Sơ đồ chân của Arduino nano CH340}}{9}{figure.caption.10}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Raspberry Pi 3 Model B+ }}{10}{figure.caption.11}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Sơ đồ các chân GPIO của Raspberry Pi 3 Model B+}}{11}{figure.caption.12}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Module RF UART E32-TTL-100}}{12}{figure.caption.13}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Sơ đồ chân và chức năng của module LoRa E32}}{12}{figure.caption.14}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Chế độ làm việc của module LoRa E32}}{13}{figure.caption.15}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Phần mềm cấu hình module LoRa E32}}{13}{figure.caption.16}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Module DHT22}}{14}{figure.caption.17}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Module 2 relay opto 5VDC}}{15}{figure.caption.18}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Cảm biến độ đục nước (DFROBOT)}}{15}{figure.caption.19}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Sơ đồ và chức năng của các chân cảm biến}}{16}{figure.caption.20}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Cảm biến pH}}{17}{figure.caption.21}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Cảm biến ORP}}{18}{figure.caption.22}%
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Sơ đồ các giao tiếp phần cứng}}{19}{figure.caption.23}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Phần cứng node vườn thanh long thực tế}}{19}{figure.caption.24}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Phần cứng node ao tôm thực tế}}{20}{figure.caption.25}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Phần cứng node ao tôm thực tế}}{20}{figure.caption.26}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Các thông số của môi trường được hiển thị trên app}}{21}{figure.caption.27}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Các thông số của môi trường được hiển thị trên Gateway}}{21}{figure.caption.28}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Các thông số của môi trường nước được cảm biến thu về và hiển thị trên màn hình LCD}}{21}{figure.caption.29}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Phần cứng trong trạng thái bật relay 1 tắt relay 2}}{22}{figure.caption.30}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Trang thái của end-Node được hiển thị trên app}}{22}{figure.caption.31}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Trang thái của end-Node được hiển thị trên Gateway}}{23}{figure.caption.32}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Phần cứng trong trạng thái bật relay 2 tắt relay 1}}{23}{figure.caption.33}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Trang thái của end-Node được hiển thị trên app}}{24}{figure.caption.34}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Trang thái của end-Node được hiển thị trên Gateway}}{24}{figure.caption.35}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Cánh đồng mẫu lớn ở An Giang}}{2}{figure.caption.3}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Trang trại công nghiệp công nghệ cao trên thế giới}}{3}{figure.caption.4}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Nhà kính giữa sa mạc của Israel}}{3}{figure.caption.5}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Nhà màng trồng rau thủy canh}}{4}{figure.caption.6}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Kế hoạch thực hiện}}{6}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Ảnh minh hoạ tầm xa LoRa}}{7}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Module RF UART E32-TTL-100}}{8}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Lịch sử hình thành MQTT}}{9}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Cơ chế tổng quan MQTT}}{10}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Kiến trúc thành phần MQTT}}{10}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Arduino nano CH340}}{12}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Sơ đồ chân của Arduino nano CH340}}{12}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Raspberry Pi 3 Model B+ }}{13}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Sơ đồ các chân GPIO của Raspberry Pi 3 Model B+}}{14}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Module RF UART E32-TTL-100}}{15}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Sơ đồ chân và chức năng của module LoRa E32}}{15}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Chế độ làm việc của module LoRa E32}}{16}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Phần mềm cấu hình module LoRa E32}}{16}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Module DHT22}}{17}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Module 2 relay opto 5VDC}}{18}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Cảm biến độ đục nước (DFROBOT)}}{18}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Sơ đồ và chức năng của các chân cảm biến}}{19}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Cảm biến pH}}{20}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Cảm biến ORP}}{21}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Sơ đồ các giao tiếp phần cứng}}{22}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Phần cứng node vườn thanh long thực tế}}{22}{figure.caption.28}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Phần cứng node ao tôm thực tế}}{23}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Phần cứng node ao tôm thực tế}}{23}{figure.caption.30}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Các thông số của môi trường được hiển thị trên app}}{24}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Các thông số của môi trường được hiển thị trên Gateway}}{24}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Các thông số của môi trường nước được cảm biến thu về và hiển thị trên màn hình LCD}}{24}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Phần cứng trong trạng thái bật relay 1 tắt relay 2}}{25}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Trang thái của end-Node được hiển thị trên app}}{25}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Trang thái của end-Node được hiển thị trên Gateway}}{26}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Phần cứng trong trạng thái bật relay 2 tắt relay 1}}{26}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Trang thái của end-Node được hiển thị trên app}}{27}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Trang thái của end-Node được hiển thị trên Gateway}}{27}{figure.caption.39}%

@@ -1,42 +1,45 @@
 \thispagestyle {empty}
 \contentsline {section}{\hbox to\@tempdima {\hfil } LỜI CẢM ƠN}{i}{table.caption.2}%
 \contentsline {section}{\hbox to\@tempdima {\hfil } DANH MỤC KÝ HIỆU VÀ CHỮ VIẾT TẮT}{ii}{table.caption.2}%
-\contentsline {section}{\hbox to\@tempdima {\hfil } DANH MỤC HÌNH VẼ}{iii}{table.caption.2}%
-\contentsline {section}{\hbox to\@tempdima {\hfil } DANH MỤC BẢNG BIỂU}{iv}{table.caption.2}%
+\contentsline {section}{\hbox to\@tempdima {\hfil } DANH MỤC HÌNH VẼ}{iv}{table.caption.2}%
+\contentsline {section}{\hbox to\@tempdima {\hfil } DANH MỤC BẢNG BIỂU}{v}{table.caption.2}%
 \contentsline {section}{\hbox to\@tempdima {\hfil } CHƯƠNG 1: GIỚI THIỆU}{1}{table.caption.2}%
 \contentsline {subsection}{\numberline {1.1}TỔNG QUAN}{1}{subsection.1.1}%
 \contentsline {subsubsection}{\numberline {1.1.1}Đặt vấn đề}{1}{subsubsection.1.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.2}Tình hình nghiên cứu trong nước}{2}{subsubsection.1.1.2}%
-\contentsline {subsubsection}{\numberline {1.1.3}Tình hình nghiên cứu ngoài nước}{2}{subsubsection.1.1.3}%
-\contentsline {subsection}{\numberline {1.2}NHIỆM VỤ THỰC TẬP}{2}{subsection.1.2}%
-\contentsline {subsubsection}{\numberline {1.2.1}Mục tiêu đề tài}{2}{subsubsection.1.2.1}%
-\contentsline {subsubsection}{\numberline {1.2.2}Yêu cầu đề tài}{2}{subsubsection.1.2.2}%
-\contentsline {subsubsection}{\numberline {1.2.3}Kế hoạch thực hiện}{3}{subsubsection.1.2.3}%
-\contentsline {section}{\hbox to\@tempdima {\hfil } CHƯƠNG 2: LÝ THUYẾT}{4}{figure.caption.3}%
-\contentsline {subsection}{\numberline {2.1}CÔNG NGHỆ LORA}{4}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}Khái niệm}{4}{subsubsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.2}Nguyên lý hoạt động}{4}{subsubsection.2.1.2}%
-\contentsline {subsubsection}{\numberline {2.1.3}Module thu phát RF UART E32-TTL-100}{5}{subsubsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.2}GIAO THỨC MQTT}{6}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}Khái niệm}{6}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}Cơ chế hoạt động của MQTT theo mô hình Pub/Sub}{6}{subsubsection.2.2.2}%
-\contentsline {section}{\hbox to\@tempdima {\hfil } CHƯƠNG 3: MCU VÀ PHẦN CỨNG ĐƯỢC SỬ DỤNG TRONG THỰC TẬP}{9}{figure.caption.8}%
-\contentsline {subsection}{\numberline {3.1}ARDUINO NANO CH340}{9}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}RASPBERRY PI 3 MODEL B+}{10}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}MODULE RF UART E32-TTL-100}{12}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}DHT22 TEMPERATURE AND HUMIDITY SENSOR}{14}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}MODULE 2 RELAY OPTO 5VDC}{15}{subsection.3.5}%
-\contentsline {subsection}{\numberline {3.6}CẢM BIẾN ĐỘ ĐỤC NƯỚC (DFROBOT)}{15}{subsection.3.6}%
-\contentsline {subsection}{\numberline {3.7}CẢM BIẾN pH (Atlas Scientific)}{17}{subsection.3.7}%
-\contentsline {subsection}{\numberline {3.8}CẢM BIẾN ORP (Atlas Scientific)}{18}{subsection.3.8}%
-\contentsline {section}{\hbox to\@tempdima {\hfil } CHƯƠNG 4: KẾT QUẢ THỰC HIỆN}{19}{figure.caption.22}%
-\contentsline {subsection}{\numberline {4.1}KẾT QUẢ THI CÔNG PHẦN CỨNG}{19}{subsection.4.1}%
-\contentsline {subsubsection}{\numberline {4.1.1}Hình ảnh phần cứng thực tế của node đặt ở vườn thanh long}{19}{subsubsection.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.2}Hình ảnh phần cứng thực tế của node đặt ở ao tôm}{19}{subsubsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.2}KIỂM TRA CÁC THÔNG SỐ MÔI TRƯỜNG THU ĐƯỢC TỪ 2 NODE}{20}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}KIỂM TRA HOẠT ĐỘNG CỦA NODE AO TÔM}{21}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}KIỂM TRA HOẠT ĐỘNG CỦA MODULE 2 RELAY}{22}{subsection.4.4}%
-\contentsline {section}{\hbox to\@tempdima {\hfil } CHƯƠNG 5: KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN}{25}{figure.caption.35}%
-\contentsline {subsection}{\numberline {5.1}KẾT LUẬN}{25}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}HƯỚNG PHÁT TRIỂN}{25}{subsection.5.2}%
-\contentsline {section}{\hbox to\@tempdima {\hfil } TÀI LIỆU THAM KHẢO}{26}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {1.1.2}Hiện trạng nông nghiệp Việt Nam}{2}{subsubsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.3}Nông nghiệp thông minh được áp dụng trên thế giới}{2}{subsubsection.1.1.3}%
+\contentsline {subsubsection}{\numberline {1.1.4}Nông nghiệp thông minh ở Việt Nam 10 năm trở lại đây}{4}{subsubsection.1.1.4}%
+\contentsline {subsubsection}{\numberline {1.1.5}Tình hình nghiên cứu mạng LoRa trong nước}{4}{subsubsection.1.1.5}%
+\contentsline {subsubsection}{\numberline {1.1.6}Tình hình nghiên cứu mạng LoRa ngoài nước}{5}{subsubsection.1.1.6}%
+\contentsline {subsection}{\numberline {1.2}NHIỆM VỤ}{5}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Mục tiêu đề tài}{5}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Yêu cầu đề tài}{5}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}Kế hoạch thực hiện}{6}{subsubsection.1.2.3}%
+\contentsline {section}{\hbox to\@tempdima {\hfil } CHƯƠNG 2: LÝ THUYẾT}{7}{figure.caption.7}%
+\contentsline {subsection}{\numberline {2.1}CÔNG NGHỆ LORA}{7}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Khái niệm}{7}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Nguyên lý hoạt động}{7}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Module thu phát RF UART E32-TTL-100}{8}{subsubsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.2}GIAO THỨC MQTT}{9}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Khái niệm}{9}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Cơ chế hoạt động của MQTT theo mô hình Pub/Sub}{9}{subsubsection.2.2.2}%
+\contentsline {section}{\hbox to\@tempdima {\hfil } CHƯƠNG 3: MCU VÀ PHẦN CỨNG ĐƯỢC SỬ DỤNG TRONG THỰC TẬP}{12}{figure.caption.12}%
+\contentsline {subsection}{\numberline {3.1}ARDUINO NANO CH340}{12}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}RASPBERRY PI 3 MODEL B+}{13}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}MODULE RF UART E32-TTL-100}{15}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}DHT22 TEMPERATURE AND HUMIDITY SENSOR}{17}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}MODULE 2 RELAY OPTO 5VDC}{18}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}CẢM BIẾN ĐỘ ĐỤC NƯỚC (DFROBOT)}{18}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}CẢM BIẾN pH (Atlas Scientific)}{20}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}CẢM BIẾN ORP (Atlas Scientific)}{21}{subsection.3.8}%
+\contentsline {section}{\hbox to\@tempdima {\hfil } CHƯƠNG 4: KẾT QUẢ THỰC HIỆN}{22}{figure.caption.26}%
+\contentsline {subsection}{\numberline {4.1}KẾT QUẢ THI CÔNG PHẦN CỨNG}{22}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Hình ảnh phần cứng thực tế của node đặt ở vườn thanh long}{22}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Hình ảnh phần cứng thực tế của node đặt ở ao tôm}{22}{subsubsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.2}KIỂM TRA CÁC THÔNG SỐ MÔI TRƯỜNG THU ĐƯỢC TỪ 2 NODE}{23}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}KIỂM TRA HOẠT ĐỘNG CỦA NODE AO TÔM}{24}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}KIỂM TRA HOẠT ĐỘNG CỦA MODULE 2 RELAY}{25}{subsection.4.4}%
+\contentsline {section}{\hbox to\@tempdima {\hfil } CHƯƠNG 5: KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN}{28}{figure.caption.39}%
+\contentsline {subsection}{\numberline {5.1}KẾT LUẬN}{28}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}HƯỚNG PHÁT TRIỂN}{28}{subsection.5.2}%
+\contentsline {section}{\hbox to\@tempdima {\hfil } TÀI LIỆU THAM KHẢO}{29}{subsection.5.2}%
