@@ -39,7 +39,7 @@
 \contentsline {subsection}{\numberline {4.2}KIỂM TRA CÁC THÔNG SỐ MÔI TRƯỜNG THU ĐƯỢC TỪ 2 NODE}{23}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}KIỂM TRA HOẠT ĐỘNG CỦA NODE AO TÔM}{24}{subsection.4.3}%
 \contentsline {subsection}{\numberline {4.4}KIỂM TRA HOẠT ĐỘNG CỦA MODULE 2 RELAY}{25}{subsection.4.4}%
-\contentsline {section}{\hbox to\@tempdima {\hfil } CHƯƠNG 5: KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN}{28}{figure.caption.39}%
-\contentsline {subsection}{\numberline {5.1}KẾT LUẬN}{28}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}HƯỚNG PHÁT TRIỂN}{28}{subsection.5.2}%
-\contentsline {section}{\hbox to\@tempdima {\hfil } TÀI LIỆU THAM KHẢO}{29}{subsection.5.2}%
+\contentsline {section}{\hbox to\@tempdima {\hfil } CHƯƠNG 5: KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN}{27}{figure.caption.39}%
+\contentsline {subsection}{\numberline {5.1}KẾT LUẬN}{27}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}HƯỚNG PHÁT TRIỂN}{27}{subsection.5.2}%
+\contentsline {section}{\hbox to\@tempdima {\hfil } TÀI LIỆU THAM KHẢO}{28}{subsection.5.2}%

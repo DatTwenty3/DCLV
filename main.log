@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.4.19)  9 JUL 2021 15:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.4.19)  17 JUL 2021 16:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1312,44 +1312,44 @@ Overfull \hbox (3.37349pt too wide) in paragraph at lines 35--35
 
 [23 <./Chapter 4/image chapter 4/aotomNode.jpg> <./Chapter 4/image chapter 4/an
 tenAotom.jpg>]
-<Chapter 4/image chapter 4/appMT.png, id=467, 694.09312pt x 368.1253pt>
+<Chapter 4/image chapter 4/appMT.png, id=467, 297.36093pt x 510.40688pt>
 File: Chapter 4/image chapter 4/appMT.png Graphic file (type png)
 <use Chapter 4/image chapter 4/appMT.png>
 Package pdftex.def Info: Chapter 4/image chapter 4/appMT.png  used on input lin
 e 49.
-(pdftex.def)             Requested size: 277.63232pt x 147.24751pt.
-<Chapter 4/image chapter 4/gwMT.png, id=468, 1028.34187pt x 261.22594pt>
+(pdftex.def)             Requested size: 118.94226pt x 204.15913pt.
+<Chapter 4/image chapter 4/gwMT.png, id=468, 962.84718pt x 499.11469pt>
 File: Chapter 4/image chapter 4/gwMT.png Graphic file (type png)
 <use Chapter 4/image chapter 4/gwMT.png>
 Package pdftex.def Info: Chapter 4/image chapter 4/gwMT.png  used on input line
  55.
-(pdftex.def)             Requested size: 411.32947pt x 104.48851pt.
+(pdftex.def)             Requested size: 385.13205pt x 199.64232pt.
 File: Chapter 4/image chapter 4/aotomNode.jpg Graphic file (type jpg)
 <use Chapter 4/image chapter 4/aotomNode.jpg>
 Package pdftex.def Info: Chapter 4/image chapter 4/aotomNode.jpg  used on input
  line 63.
 (pdftex.def)             Requested size: 256.97505pt x 192.7313pt.
-<Chapter 4/image chapter 4/R1ONR2OFF.jpg, id=469, 1445.4pt x 1084.05pt>
+ [24 <./Chapter 4/image chapter 4/appMT.png> <./Chapter 4/image chapter 4/gwMT.
+png>]
+<Chapter 4/image chapter 4/R1ONR2OFF.jpg, id=475, 1445.4pt x 1084.05pt>
 File: Chapter 4/image chapter 4/R1ONR2OFF.jpg Graphic file (type jpg)
 <use Chapter 4/image chapter 4/R1ONR2OFF.jpg>
 Package pdftex.def Info: Chapter 4/image chapter 4/R1ONR2OFF.jpg  used on input
  line 70.
 (pdftex.def)             Requested size: 289.07487pt x 216.80615pt.
- [24 <./Chapter 4/image chapter 4/appMT.png> <./Chapter 4/image chapter 4/gwMT.
-png>]
-<Chapter 4/image chapter 4/appR1ONR2OFF.png, id=476, 694.09312pt x 1541.76pt>
+<Chapter 4/image chapter 4/appR1ONR2OFF.png, id=476, 694.09312pt x 168.63pt>
 File: Chapter 4/image chapter 4/appR1ONR2OFF.png Graphic file (type png)
 <use Chapter 4/image chapter 4/appR1ONR2OFF.png>
 Package pdftex.def Info: Chapter 4/image chapter 4/appR1ONR2OFF.png  used on in
 put line 77.
-(pdftex.def)             Requested size: 138.81616pt x 308.34654pt.
-<Chapter 4/image chapter 4/Relay1ON-Relay2OFF.png, id=477, 1028.34187pt x 578.1
-6pt>
+(pdftex.def)             Requested size: 138.81616pt x 33.72539pt.
+<Chapter 4/image chapter 4/Relay1ON-Relay2OFF.png, id=477, 355.3275pt x 103.135
+31pt>
 File: Chapter 4/image chapter 4/Relay1ON-Relay2OFF.png Graphic file (type png)
 <use Chapter 4/image chapter 4/Relay1ON-Relay2OFF.png>
 Package pdftex.def Info: Chapter 4/image chapter 4/Relay1ON-Relay2OFF.png  used
  on input line 84.
-(pdftex.def)             Requested size: 308.50494pt x 173.44933pt.
+(pdftex.def)             Requested size: 106.59906pt x 30.94083pt.
  [25 <./Chapter 4/image chapter 4/R1ONR2OFF.jpg> <./Chapter 4/image chapter 4/a
 ppR1ONR2OFF.png>]
 <Chapter 4/image chapter 4/R2ONR1OFF.jpg, id=483, 1445.4pt x 1084.05pt>
@@ -1358,25 +1358,25 @@ File: Chapter 4/image chapter 4/R2ONR1OFF.jpg Graphic file (type jpg)
 Package pdftex.def Info: Chapter 4/image chapter 4/R2ONR1OFF.jpg  used on input
  line 91.
 (pdftex.def)             Requested size: 289.07487pt x 216.80615pt.
-<Chapter 4/image chapter 4/appR1OFFR2ON.png, id=484, 694.09312pt x 1541.76pt>
+<Chapter 4/image chapter 4/appR1OFFR2ON.png, id=484, 694.09312pt x 191.9672pt>
 File: Chapter 4/image chapter 4/appR1OFFR2ON.png Graphic file (type png)
 <use Chapter 4/image chapter 4/appR1OFFR2ON.png>
 Package pdftex.def Info: Chapter 4/image chapter 4/appR1OFFR2ON.png  used on in
 put line 97.
-(pdftex.def)             Requested size: 138.81616pt x 308.34654pt.
-<Chapter 4/image chapter 4/Relay1OFF-Relay2ON.png, id=485, 1028.34187pt x 578.1
-6pt>
+(pdftex.def)             Requested size: 138.81616pt x 38.39275pt.
+<Chapter 4/image chapter 4/Relay1OFF-Relay2ON.png, id=485, 357.58594pt x 103.88
+812pt>
 File: Chapter 4/image chapter 4/Relay1OFF-Relay2ON.png Graphic file (type png)
 <use Chapter 4/image chapter 4/Relay1OFF-Relay2ON.png>
 Package pdftex.def Info: Chapter 4/image chapter 4/Relay1OFF-Relay2ON.png  used
  on input line 103.
-(pdftex.def)             Requested size: 308.50494pt x 173.44933pt.
- [26 <./Chapter 4/image chapter 4/Relay1ON-Relay2OFF.png> <./Chapter 4/image ch
-apter 4/R2ONR1OFF.jpg>]) [27 <./Chapter 4/image chapter 4/appR1OFFR2ON.png> <./
-Chapter 4/image chapter 4/Relay1OFF-Relay2ON.png>]
+(pdftex.def)             Requested size: 107.2766pt x 31.16667pt.
+) [26 <./Chapter 4/image chapter 4/Relay1ON-Relay2OFF.png> <./Chapter 4/image c
+hapter 4/R2ONR1OFF.jpg> <./Chapter 4/image chapter 4/appR1OFFR2ON.png> <./Chapt
+er 4/image chapter 4/Relay1OFF-Relay2ON.png>]
 \openout2 = `"Chapter 5/Chapter 5.aux"'.
 
- (./Chapter 5/Chapter 5.tex) [28
+ (./Chapter 5/Chapter 5.tex) [27
 
 
 
@@ -1389,7 +1389,7 @@ LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 5
 
 (d:/Software/texlive/2021/texmf-dist/tex/latex/vntex/t5cmtt.fd
 File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)) [29
+)) [28
 
 
 
@@ -1397,12 +1397,15 @@ File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 (./main.aux (./Chapter 1/Chapter 1.aux) (./Chapter 2/Chapter 2.aux)
 (./Chapter 3/Chapter 3.aux) (./Chapter 4/Chapter 4.aux)
 (./Chapter 5/Chapter 5.aux) (./References/References.aux))
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 26E237F6F5B8E96026D8AA631AC51BC0;10017.
  ) 
 Here is how much of TeX's memory you used:
- 22561 strings out of 478994
- 407758 string characters out of 5857680
+ 22560 strings out of 478994
+ 407751 string characters out of 5857680
  684580 words of memory out of 5000000
  39444 multiletter control sequences out of 15000+600000
  449417 words of font info for 70 fonts, out of 8000000 for 9000
@@ -1416,10 +1419,10 @@ onts/type1/urw/times/utmr8a.pfb><d:/Software/texlive/2021/texmf-dist/fonts/type
 1/vntex/urwvn/utmr8v.pfb><d:/Software/texlive/2021/texmf-dist/fonts/type1/vntex
 /urwvn/utmri8v.pfb><d:/Software/texlive/2021/texmf-dist/fonts/type1/vntex/vnr/v
 ntt10.pfb>
-Output written on main.pdf (37 pages, 7804193 bytes).
+Output written on main.pdf (36 pages, 7073677 bytes).
 PDF statistics:
- 559 PDF objects out of 1000 (max. 8388607)
- 458 compressed objects within 5 object streams
- 108 named destinations out of 1000 (max. 500000)
+ 553 PDF objects out of 1000 (max. 8388607)
+ 452 compressed objects within 5 object streams
+ 107 named destinations out of 1000 (max. 500000)
  545 words of extra memory for PDF output out of 10000 (max. 10000000)
 
